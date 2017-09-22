@@ -8,9 +8,6 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    BRANDS.each do |brand|
-      Shoe.new(brand)
-    end
   end
 
   def cobble
